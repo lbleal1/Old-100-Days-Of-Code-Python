@@ -1,0 +1,15 @@
+#The Extreme (VIII)
+
+l = 7
+minn = 999999
+maxx = 0 
+while l >= 0:
+	var = int(input())
+	if abs(var) > maxx:
+		maxx = var
+	if abs(var) < minn:
+		minn = var
+	l-=1
+
+print(minn)
+print(maxx)

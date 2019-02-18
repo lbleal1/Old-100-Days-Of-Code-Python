@@ -1,0 +1,7 @@
+#Determine the sum of the values 1, 2, ..., n with the values squared (summation of squared items)
+
+n = int(input("Enter n: "))
+summ = 0
+for i in range(1,n+1):
+	summ += i**2 
+print("Answer:",summ)

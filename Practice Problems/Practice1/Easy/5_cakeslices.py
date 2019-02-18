@@ -1,0 +1,8 @@
+#DISCLAIMER: all formulas are given by sir, 
+#my objective is to get a hang of the python syntax
+
+n = int(input("How many cake slices?"))
+
+cake = n * (n + 1) // 2 + 1
+
+print("After slicing the cake " + str(n) + " times you will have " + str(cake) + " cake slices")   
